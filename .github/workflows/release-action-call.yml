@@ -1,3 +1,13 @@
 name: Release action
-# Call the reusable workflow release-solution-with-inputs.yml
-# Release your solution to prod when you create a new release.
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output comment
+        run: echo "This is a comment from the Release action workflow."
