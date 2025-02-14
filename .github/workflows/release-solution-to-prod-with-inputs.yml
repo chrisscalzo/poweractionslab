@@ -1,3 +1,4 @@
+# Force update to clear cache
 name: release-solution-to-prod-reusable
 # Reusable workflow
 # convert solution to managed (using a build PowerPlatform environment for the conversion)
@@ -21,13 +22,13 @@ on:
         type: string
         default: out/solutions/
       solution_source_folder: 
-       description: 'folder name to be created and checked in *do not change*'
-       type: string
-       default: solutions/
+        description: 'folder name to be created and checked in *do not change*'
+        type: string
+        default: solutions/
       solution_release_folder:
-       description: 'folder where the released binaries are going to be hosted *do not change*'
-       type: string
-       default: out/release
+        description: 'folder where the released binaries are going to be hosted *do not change*'
+        type: string
+        default: out/release
       BUILD_ENVIRONMENT_URL:
         description: 'Build environment url.'
         type: string
