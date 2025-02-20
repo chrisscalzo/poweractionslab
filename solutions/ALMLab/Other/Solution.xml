@@ -6,7 +6,7 @@
       <LocalizedName description="ALMLab" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.0</Version>
+    <Version>1.0.6.0</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>almlab</UniqueName>
@@ -79,6 +79,8 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="almlab_timeoffrequest" behavior="0" />
+      <RootComponent type="29" id="{893f6fea-2bef-ef11-9341-000d3a32bac8}" behavior="0" />
+      <RootComponent type="29" id="{be7d5fff-63ee-ef11-9341-000d3a32bac8}" behavior="0" />
       <RootComponent type="62" schemaName="almlab_TimeOffRequests" behavior="0" />
       <RootComponent type="80" schemaName="almlab_TimeOffRequests" behavior="0" />
     </RootComponents>
@@ -88,6 +90,10 @@
           <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
         </Required>
         <Dependent type="80" schemaName="almlab_TimeOffRequests" displayName="Time Off Requests" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="demoexpl_shareduiflow_88730" solution="Active" id.connectionreferencelogicalname="demoexpl_shareduiflow_88730" />
+        <Dependent type="29" displayName="Scheduled Jordan Products" id="{893f6fea-2bef-ef11-9341-000d3a32bac8}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.12)" id.uniquename="AppChannel">
