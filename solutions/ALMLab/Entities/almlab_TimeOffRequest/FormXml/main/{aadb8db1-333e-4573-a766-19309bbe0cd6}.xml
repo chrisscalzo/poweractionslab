@@ -28,6 +28,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{e4eb72e8-3690-4af0-a43b-fd0e1cb1f046}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Time Off Date" languagecode="1033" />
+                        </labels>
+                        <control id="almlab_timeoffdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="almlab_timeoffdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{bb0d74cf-f790-4cf8-ad82-17f3b2022980}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Details" languagecode="1033" />
