@@ -7,7 +7,7 @@
     <FormActivationState>1</FormActivationState>
     <form headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{c1733271-a251-43ed-a491-54ba48996389}" IsUserDefined="1">
+        <tab verticallayout="true" id="{c1733271-a251-43ed-a491-54ba48996389}" IsUserDefined="1" name="General">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
@@ -33,6 +33,30 @@
                           <label description="Details" languagecode="1033" />
                         </labels>
                         <control id="almlab_details" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="almlab_details" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{74cd6db8-fd9f-4951-a1c6-db9d04138754}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Additional Comments" languagecode="1033" />
+                        </labels>
+                        <control id="almlab_additionalcomments" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="almlab_additionalcomments" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8999b319-10b0-418a-9fc2-4a12060c8368}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e20443b2-6851-4f03-af98-1b88d063a134}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
                       </cell>
                     </row>
                     <row>
